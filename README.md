@@ -26,7 +26,11 @@
 
 ![localdns](https://i.imgur.com/4WN9qit.png)
 
+* Linux用户可参考[树莓派安装unbound和dnscrypt-proxy全记录](https://github.com/CNMan/unbound.conf/issues/13)进行配置，大同小异。
+
 ## 说明
+
+主要配置文件在每天北京时间5:09、13:09、21:09更新一次，注意同步。
 
 常用hosts域名配置在`unbound.local-zone.hosts.conf`，配置说明可参考[Unbound+DNSCrypt双保险防DNS污染及劫持](https://goo.gl/IG3K27)
 
